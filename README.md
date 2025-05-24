@@ -65,4 +65,4 @@ And that's it. Enjoy PNETLab!
 
 ![image](https://github.com/user-attachments/assets/7f7d4b52-313a-4c21-840d-38db0f911c3d)
 
-4. Next install the ishare2, please follow for the steps by steps in other file.
+4. Next install the ishare2, please follow the instruction from the Telegram Group.
