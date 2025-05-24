@@ -5,6 +5,8 @@ This installation steps is updated from the PNETLab Platform Group on the Telegr
 Please join to the telegram group for any update of the PNETLab.
 
 1. Open cloud console in GCP, once you are in the CLI, run below command for the PNETLab version 6.
+![image](https://github.com/user-attachments/assets/e4f6fac6-43f7-4c33-b8f7-3e81a8d94a38)
+
 
 - PNETLab version 6 (Ubuntu 20.04):
 gcloud compute images create nested-ubuntu-focal --source-image-family=ubuntu-2004-lts --source-image-project=ubuntu-os-cloud --licenses https://www.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx
@@ -50,3 +52,5 @@ sudo -i
 You'll get setup wizard again. When it asks you to enter your new root password, enter it twice, give a hostname of choice, domain name of choice, and select DHCP (don't use static ip ), and leave NTP blank.
 
 And that's it. Enjoy PNETLab!
+
+![image](https://github.com/user-attachments/assets/b0b57d0e-5848-4c1d-baf1-7ef575685932)
