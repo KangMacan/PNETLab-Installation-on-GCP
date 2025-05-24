@@ -63,4 +63,6 @@ You'll get setup wizard again. When it asks you to enter your new root password,
 
 And that's it. Enjoy PNETLab!
 
-![image](https://github.com/user-attachments/assets/b0b57d0e-5848-4c1d-baf1-7ef575685932)
+![image](https://github.com/user-attachments/assets/7f7d4b52-313a-4c21-840d-38db0f911c3d)
+
+4. Next install the ishare2, please follow for the steps by steps in other file.
