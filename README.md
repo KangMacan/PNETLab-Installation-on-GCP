@@ -14,17 +14,15 @@ gcloud compute images create nested-ubuntu-focal --source-image-family=ubuntu-20
 
 Recommendations:
 CPU: Intel CPUs Skylake or Cascade
-*Below is the example of my pnetlab VM instance
+
 ![image](https://github.com/user-attachments/assets/3364b383-4ef4-44f7-a336-da329a0b62a2)
 ![image](https://github.com/user-attachments/assets/92932c2d-390e-45c2-bcbc-0813aeb02e43)
 
-![image](https://github.com/user-attachments/assets/dda15c58-ea3a-43d9-8b39-2b607144105b)
 
 Disk: SSD for better performance
-*Below is the example of storage configuration
+
 ![image](https://github.com/user-attachments/assets/9d4ff488-cd81-4c3e-8869-666c65b8a365)
 
-![image](https://github.com/user-attachments/assets/715665d5-b8b8-42fa-a295-9c763734ed29)
 
 - For the boot disk, select the nested image that you created in step 1
 - Allow HTTP and HTTPS traffic
