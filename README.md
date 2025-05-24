@@ -9,7 +9,7 @@ Please join to the telegram group for any update of the PNETLab.
 
 
 - PNETLab version 6 (Ubuntu 20.04):
-gcloud compute images create nested-ubuntu-focal --source-image-family=ubuntu-2004-lts --source-image-project=ubuntu-os-cloud --licenses https://www.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx
+'''gcloud compute images create nested-ubuntu-focal --source-image-family=ubuntu-2004-lts --source-image-project=ubuntu-os-cloud --licenses https://www.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx'''
 
 
 2. Create a VM instance.
@@ -33,21 +33,21 @@ Disk: SSD for better performance
 - After the VM is created, ssh to it and switch to the root user:
 
 Bash :
-  sudo -i
+  '''sudo -i'''
 
 3. Run the installation script for the PNETLab version 6:
 
 Bash :
-bash -c "$(curl -sL https://drive.labhub.eu.org/0:/upgrades_pnetlab/Focal/install_pnetlab_v6.sh)"
+'''bash -c "$(curl -sL https://drive.labhub.eu.org/0:/upgrades_pnetlab/Focal/install_pnetlab_v6.sh)" '''
 
 
 Once installation is completed reboot the VM with this command:
-reboot
+'''reboot'''
 
 Wait for few seconds while the VM reboots and ssh to it again.
 
 When the setup wizard screen appears, press ctrl + c and type the below command to switch to the root user:
-sudo -i 
+'''sudo -i'''
 
 You'll get setup wizard again. When it asks you to enter your new root password, enter it twice, give a hostname of choice, domain name of choice, and select DHCP (don't use static ip ), and leave NTP blank.
 
