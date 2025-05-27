@@ -45,6 +45,10 @@ Bash :
 ```
 bash -c "$(curl -sL https://drive.labhub.eu.org/0:/upgrades_pnetlab/Focal/install_pnetlab_v6.sh)"
 ```
+or this address :
+```
+curl -sL https://labhub.eu.org/api/raw/?path=/upgrades_pnetlab/Focal/install_pnetlab_v6.sh | bash
+```
 
 
 Once installation is completed reboot the VM with this command:
